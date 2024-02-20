@@ -7,6 +7,8 @@ export default function Home() {
     <div>
       <Titulo></Titulo>
       <SubTitulo texto = 'Estou aqui'></SubTitulo>
+      <SubTitulo texto = 'Estou aqui1'></SubTitulo>
+      <SubTitulo texto = 'Estou aqui2'></SubTitulo>
     </div>
   );
 }
