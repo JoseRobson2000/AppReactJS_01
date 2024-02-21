@@ -1,7 +1,7 @@
 export default function CustomInputLabel(props){
     return (
-        <div class="col-8 mb-3">
-                <label className="form-label" for={props.id}>{props.texto}</label>
+        <div class={`col-${props.col} mb-3`}>
+                <label className="form-label" htmlFor={props.id}>{props.texto}</label>
                 <input className="form-control" id={props.id} type="text"/>
             </div>
     )
